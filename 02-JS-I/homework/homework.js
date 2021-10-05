@@ -2,22 +2,22 @@
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'Hola';
-
+const nuevaString1 = ´Hello My World´;
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 8;
-
+const nuevoNum = 8;
 // Crea una variable booleana:
 const nuevoBool = true;
-
+const nuevoBool = true;
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
-
+const nuevaResta = 10 - 5 === 5 ;
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
-
+const nuevaMultiplicacion = 10 * 4 === 40;
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-
+const nuevoModulo = 21 % 5 === 1;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -27,15 +27,15 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
-    return str;
+  var VariableReturn = ´str´
+    return VariableReturn;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  return x + y;
+  var sumatoria= x + Y;
+  return sumatoria;
 }
 
 function resta(x, y) {
